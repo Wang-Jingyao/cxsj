@@ -1,6 +1,6 @@
 torch
 tqdm
-transformers
+transformers>=4.51.0
 typing
 numpy
 scipy
