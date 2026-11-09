@@ -15,7 +15,7 @@ def text_to_nll(text_path, model_path):
         model_path=model_path,
         max_length=1024,
         batch_size=4,
-        device = "cuda:1",
+        device = "cuda:2",
     )
     nll = nll_cal.texts_to_nll(texts)[0].float().cpu().numpy()
     return nll

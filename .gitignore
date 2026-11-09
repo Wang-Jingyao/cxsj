@@ -6,3 +6,31 @@ test/
 
 *.json
 .venv/
+
+# Local Python environments
+venv/
+env/
+
+# Tool and plotting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.cache/
+.mplconfig/
+
+# Generated experiment outputs
+/figures/
+/outputs/
+/results/
+/logs/
+*.log
+*.tmp
+*.npy
+*.npz
+
+# Keep the bundled example input
+!/wsj_2380_nll.npy
+
+# Local datasets
+/data/
